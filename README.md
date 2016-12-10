@@ -15,8 +15,14 @@ How to build rplidar ros package
 =====================================================================
     1) Clone this project to your catkin's workspace src folder
     2) Running catkin_make to build rplidarNode and rplidarNodeClient
+    
+hector_slam_gmapping
+=====================================================================
+I. if you use hector_slam to creat map or navigation you must install this package
+sudo apt-get install ros-indigo-hector-slam
+II.run this node
+roslaunch rplidar_ros hector_rplidar.launch
 
-How to run rplidar ros package
 =====================================================================
 There're two ways to run rplidar ros package
 
