@@ -19,8 +19,11 @@ How to build rplidar ros package
 hector_slam_gmapping
 =====================================================================
 I. if you use hector_slam to creat map or navigation you must install this package
+
 sudo apt-get install ros-indigo-hector-slam
+
 II.run this node
+
 roslaunch rplidar_ros hector_rplidar.launch
 
 =====================================================================
